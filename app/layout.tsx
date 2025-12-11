@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SkillHub Lite",
+  title: "SkyVision",
   description: "Einfaches Skill-Verzeichnis",
 };
 

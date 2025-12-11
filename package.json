@@ -1,7 +1,7 @@
 {
-  "name": "skillhub-lite",
+  "name": "skyvision",
   "version": "1.0.0",
-  "description": "SkillHub Lite - Einfaches Skill-Verzeichnis",
+  "description": "SkyVision - Einfaches Skill-Verzeichnis",
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
