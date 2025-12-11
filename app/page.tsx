@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui";
-import { SkillList } from "@/components";
+import { SkillSection } from "@/components";
 import { skills } from "@/data/skills";
 
 export default function Home() {
@@ -17,10 +17,7 @@ export default function Home() {
           </p>
         </header>
 
-        <section>
-          <h2 className="text-xl font-semibold mb-6">Skills</h2>
-          <SkillList skills={skills} />
-        </section>
+        <SkillSection skills={skills} />
       </Container>
     </main>
   );
