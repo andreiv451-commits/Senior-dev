@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/*
+ * SkillHub Lite Design System
+ * ==========================
+ * Extrahiert aus dem bereitgestellten Design System
+ *
+ * Farben:
+ * - Primary: #737373 (neutral grau) / Foreground: #fafafa
+ * - Secondary: #f5f5f5 (helles grau) / Foreground: #171717
+ * - Accent: #f5f5f5 / Foreground: #171717
+ * - Background: #ffffff / Foreground: #0a0a0a
+ * - Card: #ffffff / Foreground: #0a0a0a
+ * - Muted: #f5f5f5 / Foreground: #717171
+ * - Destructive: #e7000b (rot) / Foreground: #f5f5f5
+ * - Border/Input: #e5e5e5
+ * - Ring: #a1a1a1
+ *
+ * Typografie: Geist Mono (monospace für alles)
+ * Radius: 0rem (eckiges Design)
+ * Shadow: 0 1px 2px 0 rgba(0,0,0,0.05)
+ */
+
+@theme {
+  /* Farben */
+  --color-primary: #737373;
+  --color-primary-foreground: #fafafa;
+
+  --color-secondary: #f5f5f5;
+  --color-secondary-foreground: #171717;
+
+  --color-accent: #f5f5f5;
+  --color-accent-foreground: #171717;
+
+  --color-background: #ffffff;
+  --color-foreground: #0a0a0a;
+
+  --color-card: #ffffff;
+  --color-card-foreground: #0a0a0a;
+
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0a0a0a;
+
+  --color-muted: #f5f5f5;
+  --color-muted-foreground: #717171;
+
+  --color-destructive: #e7000b;
+  --color-destructive-foreground: #f5f5f5;
+
+  --color-border: #e5e5e5;
+  --color-input: #e5e5e5;
+  --color-ring: #a1a1a1;
+
+  /* Typografie - Geist Mono */
+  --font-sans: "Geist Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --font-serif: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Border Radius - 0 für eckiges Design */
+  --radius-none: 0rem;
+  --radius-sm: 0rem;
+  --radius-md: 0rem;
+  --radius-lg: 0rem;
+  --radius-xl: 0rem;
+  --radius-2xl: 0rem;
+  --radius-3xl: 0rem;
+  --radius-full: 0rem;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Base Styles */
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
